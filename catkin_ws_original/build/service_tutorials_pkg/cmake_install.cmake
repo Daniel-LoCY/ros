@@ -1,8 +1,8 @@
-# Install script for directory: /home/daniel/catkin_ws/src/service_tutorials_pkg
+# Install script for directory: /home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/daniel/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,53 +38,53 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/service_tutorials_pkg/srv" TYPE FILE FILES "/home/daniel/catkin_ws/src/service_tutorials_pkg/srv/AddTwoInts.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/service_tutorials_pkg/srv" TYPE FILE FILES "/home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg/srv/AddTwoInts.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/service_tutorials_pkg/cmake" TYPE FILE FILES "/home/daniel/catkin_ws/build/service_tutorials_pkg/catkin_generated/installspace/service_tutorials_pkg-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/service_tutorials_pkg/cmake" TYPE FILE FILES "/home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg/catkin_generated/installspace/service_tutorials_pkg-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/daniel/catkin_ws/devel/include/service_tutorials_pkg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/daniel/ros/catkin_ws_original/build/devel/include/service_tutorials_pkg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/daniel/catkin_ws/devel/share/roseus/ros/service_tutorials_pkg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/daniel/ros/catkin_ws_original/build/devel/share/roseus/ros/service_tutorials_pkg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/daniel/catkin_ws/devel/share/common-lisp/ros/service_tutorials_pkg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/daniel/ros/catkin_ws_original/build/devel/share/common-lisp/ros/service_tutorials_pkg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/daniel/catkin_ws/devel/share/gennodejs/ros/service_tutorials_pkg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/daniel/ros/catkin_ws_original/build/devel/share/gennodejs/ros/service_tutorials_pkg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/daniel/catkin_ws/devel/lib/python3/dist-packages/service_tutorials_pkg")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/daniel/ros/catkin_ws_original/build/devel/lib/python3/dist-packages/service_tutorials_pkg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/daniel/catkin_ws/devel/lib/python3/dist-packages/service_tutorials_pkg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/daniel/ros/catkin_ws_original/build/devel/lib/python3/dist-packages/service_tutorials_pkg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/daniel/catkin_ws/build/service_tutorials_pkg/catkin_generated/installspace/service_tutorials_pkg.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg/catkin_generated/installspace/service_tutorials_pkg.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/service_tutorials_pkg/cmake" TYPE FILE FILES "/home/daniel/catkin_ws/build/service_tutorials_pkg/catkin_generated/installspace/service_tutorials_pkg-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/service_tutorials_pkg/cmake" TYPE FILE FILES "/home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg/catkin_generated/installspace/service_tutorials_pkg-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/service_tutorials_pkg/cmake" TYPE FILE FILES
-    "/home/daniel/catkin_ws/build/service_tutorials_pkg/catkin_generated/installspace/service_tutorials_pkgConfig.cmake"
-    "/home/daniel/catkin_ws/build/service_tutorials_pkg/catkin_generated/installspace/service_tutorials_pkgConfig-version.cmake"
+    "/home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg/catkin_generated/installspace/service_tutorials_pkgConfig.cmake"
+    "/home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg/catkin_generated/installspace/service_tutorials_pkgConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/service_tutorials_pkg" TYPE FILE FILES "/home/daniel/catkin_ws/src/service_tutorials_pkg/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/service_tutorials_pkg" TYPE FILE FILES "/home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg/package.xml")
 endif()
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/daniel/catkin_ws/devel/lib/tutorials_pkg/publisher"
-  "/home/daniel/catkin_ws/devel/lib/tutorials_pkg/publisher.pdb"
+  "../devel/lib/tutorials_pkg/publisher"
+  "../devel/lib/tutorials_pkg/publisher.pdb"
   "CMakeFiles/publisher.dir/src/publisher.cpp.o"
 )
 

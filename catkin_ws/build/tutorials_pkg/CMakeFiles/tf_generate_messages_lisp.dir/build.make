@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniel/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/daniel/ros/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniel/catkin_ws/build
+CMAKE_BINARY_DIR = /home/daniel/ros/catkin_ws/build
 
 # Utility rule file for tf_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ tutorials_pkg/CMakeFiles/tf_generate_messages_lisp.dir/build: tf_generate_messag
 .PHONY : tutorials_pkg/CMakeFiles/tf_generate_messages_lisp.dir/build
 
 tutorials_pkg/CMakeFiles/tf_generate_messages_lisp.dir/clean:
-	cd /home/daniel/catkin_ws/build/tutorials_pkg && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/daniel/ros/catkin_ws/build/tutorials_pkg && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : tutorials_pkg/CMakeFiles/tf_generate_messages_lisp.dir/clean
 
 tutorials_pkg/CMakeFiles/tf_generate_messages_lisp.dir/depend:
-	cd /home/daniel/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/catkin_ws/src /home/daniel/catkin_ws/src/tutorials_pkg /home/daniel/catkin_ws/build /home/daniel/catkin_ws/build/tutorials_pkg /home/daniel/catkin_ws/build/tutorials_pkg/CMakeFiles/tf_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/daniel/ros/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/ros/catkin_ws/src /home/daniel/ros/catkin_ws/src/tutorials_pkg /home/daniel/ros/catkin_ws/build /home/daniel/ros/catkin_ws/build/tutorials_pkg /home/daniel/ros/catkin_ws/build/tutorials_pkg/CMakeFiles/tf_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tutorials_pkg/CMakeFiles/tf_generate_messages_lisp.dir/depend
 

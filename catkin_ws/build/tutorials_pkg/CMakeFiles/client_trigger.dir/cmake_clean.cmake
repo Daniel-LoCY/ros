@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/daniel/catkin_ws/devel/lib/tutorials_pkg/client_trigger"
-  "/home/daniel/catkin_ws/devel/lib/tutorials_pkg/client_trigger.pdb"
+  "../devel/lib/tutorials_pkg/client_trigger"
+  "../devel/lib/tutorials_pkg/client_trigger.pdb"
   "CMakeFiles/client_trigger.dir/src/client_trigger.cpp.o"
 )
 

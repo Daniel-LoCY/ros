@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniel/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/daniel/ros/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniel/catkin_ws/build
+CMAKE_BINARY_DIR = /home/daniel/ros/catkin_ws/build
 
 # Utility rule file for clean_test_results_tutorials_pkg.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/daniel/catkin_ws/build
 include tutorials_pkg/CMakeFiles/clean_test_results_tutorials_pkg.dir/progress.make
 
 tutorials_pkg/CMakeFiles/clean_test_results_tutorials_pkg:
-	cd /home/daniel/catkin_ws/build/tutorials_pkg && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/daniel/catkin_ws/build/test_results/tutorials_pkg
+	cd /home/daniel/ros/catkin_ws/build/tutorials_pkg && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/daniel/ros/catkin_ws/build/test_results/tutorials_pkg
 
 clean_test_results_tutorials_pkg: tutorials_pkg/CMakeFiles/clean_test_results_tutorials_pkg
 clean_test_results_tutorials_pkg: tutorials_pkg/CMakeFiles/clean_test_results_tutorials_pkg.dir/build.make
@@ -67,10 +67,10 @@ tutorials_pkg/CMakeFiles/clean_test_results_tutorials_pkg.dir/build: clean_test_
 .PHONY : tutorials_pkg/CMakeFiles/clean_test_results_tutorials_pkg.dir/build
 
 tutorials_pkg/CMakeFiles/clean_test_results_tutorials_pkg.dir/clean:
-	cd /home/daniel/catkin_ws/build/tutorials_pkg && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_tutorials_pkg.dir/cmake_clean.cmake
+	cd /home/daniel/ros/catkin_ws/build/tutorials_pkg && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_tutorials_pkg.dir/cmake_clean.cmake
 .PHONY : tutorials_pkg/CMakeFiles/clean_test_results_tutorials_pkg.dir/clean
 
 tutorials_pkg/CMakeFiles/clean_test_results_tutorials_pkg.dir/depend:
-	cd /home/daniel/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/catkin_ws/src /home/daniel/catkin_ws/src/tutorials_pkg /home/daniel/catkin_ws/build /home/daniel/catkin_ws/build/tutorials_pkg /home/daniel/catkin_ws/build/tutorials_pkg/CMakeFiles/clean_test_results_tutorials_pkg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/daniel/ros/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/ros/catkin_ws/src /home/daniel/ros/catkin_ws/src/tutorials_pkg /home/daniel/ros/catkin_ws/build /home/daniel/ros/catkin_ws/build/tutorials_pkg /home/daniel/ros/catkin_ws/build/tutorials_pkg/CMakeFiles/clean_test_results_tutorials_pkg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tutorials_pkg/CMakeFiles/clean_test_results_tutorials_pkg.dir/depend
 

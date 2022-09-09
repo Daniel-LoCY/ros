@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniel/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/daniel/ros/catkin_ws_original/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniel/catkin_ws/build
+CMAKE_BINARY_DIR = /home/daniel/ros/catkin_ws_original/build
 
 # Utility rule file for service_tutorials_pkg_gencpp.
 
@@ -63,10 +63,10 @@ service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_gencpp.dir/build: service
 .PHONY : service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_gencpp.dir/build
 
 service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_gencpp.dir/clean:
-	cd /home/daniel/catkin_ws/build/service_tutorials_pkg && $(CMAKE_COMMAND) -P CMakeFiles/service_tutorials_pkg_gencpp.dir/cmake_clean.cmake
+	cd /home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg && $(CMAKE_COMMAND) -P CMakeFiles/service_tutorials_pkg_gencpp.dir/cmake_clean.cmake
 .PHONY : service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_gencpp.dir/clean
 
 service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_gencpp.dir/depend:
-	cd /home/daniel/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/catkin_ws/src /home/daniel/catkin_ws/src/service_tutorials_pkg /home/daniel/catkin_ws/build /home/daniel/catkin_ws/build/service_tutorials_pkg /home/daniel/catkin_ws/build/service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_gencpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/daniel/ros/catkin_ws_original/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/ros/catkin_ws_original/src /home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg /home/daniel/ros/catkin_ws_original/build /home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg /home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_gencpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_gencpp.dir/depend
 

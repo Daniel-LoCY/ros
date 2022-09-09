@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniel/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/daniel/ros/catkin_ws_original/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniel/catkin_ws/build
+CMAKE_BINARY_DIR = /home/daniel/ros/catkin_ws_original/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/daniel/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/catkin_ws/build/CMakeFiles /home/daniel/catkin_ws/build/basic_pkg/CMakeFiles/progress.marks
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/catkin_ws/build/CMakeFiles 0
+	cd /home/daniel/ros/catkin_ws_original/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/ros/catkin_ws_original/build/CMakeFiles /home/daniel/ros/catkin_ws_original/build/basic_pkg/CMakeFiles/progress.marks
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/ros/catkin_ws_original/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/clean
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/preinstall
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/preinstall
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/daniel/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/daniel/ros/catkin_ws_original/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 basic_pkg/CMakeFiles/client_trigger.dir/rule:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/client_trigger.dir/rule
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/client_trigger.dir/rule
 .PHONY : basic_pkg/CMakeFiles/client_trigger.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ client_trigger: basic_pkg/CMakeFiles/client_trigger.dir/rule
 
 # fast build rule for target.
 client_trigger/fast:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/client_trigger.dir/build.make basic_pkg/CMakeFiles/client_trigger.dir/build
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/client_trigger.dir/build.make basic_pkg/CMakeFiles/client_trigger.dir/build
 .PHONY : client_trigger/fast
 
 # Convenience name for target.
 basic_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : basic_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ std_msgs_generate_messages_py: basic_pkg/CMakeFiles/std_msgs_generate_messages_p
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/build.make basic_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/build.make basic_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 basic_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 .PHONY : basic_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ std_msgs_generate_messages_nodejs: basic_pkg/CMakeFiles/std_msgs_generate_messag
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make basic_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make basic_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 basic_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : basic_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ roscpp_generate_messages_cpp: basic_pkg/CMakeFiles/roscpp_generate_messages_cpp.
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make basic_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make basic_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 basic_pkg/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 .PHONY : basic_pkg/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ roscpp_generate_messages_eus: basic_pkg/CMakeFiles/roscpp_generate_messages_eus.
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/roscpp_generate_messages_eus.dir/build.make basic_pkg/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/roscpp_generate_messages_eus.dir/build.make basic_pkg/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 # Convenience name for target.
 basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 .PHONY : basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ rosgraph_msgs_generate_messages_nodejs: basic_pkg/CMakeFiles/rosgraph_msgs_gener
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 basic_pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : basic_pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ std_msgs_generate_messages_lisp: basic_pkg/CMakeFiles/std_msgs_generate_messages
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make basic_pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make basic_pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 basic_pkg/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/roscpp_generate_messages_py.dir/rule
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : basic_pkg/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ roscpp_generate_messages_py: basic_pkg/CMakeFiles/roscpp_generate_messages_py.di
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/roscpp_generate_messages_py.dir/build.make basic_pkg/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/roscpp_generate_messages_py.dir/build.make basic_pkg/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 basic_pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 .PHONY : basic_pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -299,12 +299,12 @@ std_msgs_generate_messages_eus: basic_pkg/CMakeFiles/std_msgs_generate_messages_
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make basic_pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make basic_pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 basic_pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 .PHONY : basic_pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ roscpp_generate_messages_nodejs: basic_pkg/CMakeFiles/roscpp_generate_messages_n
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make basic_pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make basic_pkg/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
 basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -329,12 +329,12 @@ rosgraph_msgs_generate_messages_cpp: basic_pkg/CMakeFiles/rosgraph_msgs_generate
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 basic_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : basic_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -344,12 +344,12 @@ std_msgs_generate_messages_cpp: basic_pkg/CMakeFiles/std_msgs_generate_messages_
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make basic_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make basic_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 .PHONY : basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -359,12 +359,12 @@ rosgraph_msgs_generate_messages_eus: basic_pkg/CMakeFiles/rosgraph_msgs_generate
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 basic_pkg/CMakeFiles/service_trigger.dir/rule:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/service_trigger.dir/rule
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/service_trigger.dir/rule
 .PHONY : basic_pkg/CMakeFiles/service_trigger.dir/rule
 
 # Convenience name for target.
@@ -374,12 +374,12 @@ service_trigger: basic_pkg/CMakeFiles/service_trigger.dir/rule
 
 # fast build rule for target.
 service_trigger/fast:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/service_trigger.dir/build.make basic_pkg/CMakeFiles/service_trigger.dir/build
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/service_trigger.dir/build.make basic_pkg/CMakeFiles/service_trigger.dir/build
 .PHONY : service_trigger/fast
 
 # Convenience name for target.
 basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -389,12 +389,12 @@ rosgraph_msgs_generate_messages_lisp: basic_pkg/CMakeFiles/rosgraph_msgs_generat
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 basic_pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : basic_pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -404,12 +404,12 @@ roscpp_generate_messages_lisp: basic_pkg/CMakeFiles/roscpp_generate_messages_lis
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make basic_pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make basic_pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f CMakeFiles/Makefile2 basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -419,7 +419,7 @@ rosgraph_msgs_generate_messages_py: basic_pkg/CMakeFiles/rosgraph_msgs_generate_
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make basic_pkg/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 src/client_trigger.o: src/client_trigger.cpp.o
@@ -428,7 +428,7 @@ src/client_trigger.o: src/client_trigger.cpp.o
 
 # target to build an object file
 src/client_trigger.cpp.o:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/client_trigger.dir/build.make basic_pkg/CMakeFiles/client_trigger.dir/src/client_trigger.cpp.o
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/client_trigger.dir/build.make basic_pkg/CMakeFiles/client_trigger.dir/src/client_trigger.cpp.o
 .PHONY : src/client_trigger.cpp.o
 
 src/client_trigger.i: src/client_trigger.cpp.i
@@ -437,7 +437,7 @@ src/client_trigger.i: src/client_trigger.cpp.i
 
 # target to preprocess a source file
 src/client_trigger.cpp.i:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/client_trigger.dir/build.make basic_pkg/CMakeFiles/client_trigger.dir/src/client_trigger.cpp.i
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/client_trigger.dir/build.make basic_pkg/CMakeFiles/client_trigger.dir/src/client_trigger.cpp.i
 .PHONY : src/client_trigger.cpp.i
 
 src/client_trigger.s: src/client_trigger.cpp.s
@@ -446,7 +446,7 @@ src/client_trigger.s: src/client_trigger.cpp.s
 
 # target to generate assembly for a file
 src/client_trigger.cpp.s:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/client_trigger.dir/build.make basic_pkg/CMakeFiles/client_trigger.dir/src/client_trigger.cpp.s
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/client_trigger.dir/build.make basic_pkg/CMakeFiles/client_trigger.dir/src/client_trigger.cpp.s
 .PHONY : src/client_trigger.cpp.s
 
 src/service_trigger.o: src/service_trigger.cpp.o
@@ -455,7 +455,7 @@ src/service_trigger.o: src/service_trigger.cpp.o
 
 # target to build an object file
 src/service_trigger.cpp.o:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/service_trigger.dir/build.make basic_pkg/CMakeFiles/service_trigger.dir/src/service_trigger.cpp.o
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/service_trigger.dir/build.make basic_pkg/CMakeFiles/service_trigger.dir/src/service_trigger.cpp.o
 .PHONY : src/service_trigger.cpp.o
 
 src/service_trigger.i: src/service_trigger.cpp.i
@@ -464,7 +464,7 @@ src/service_trigger.i: src/service_trigger.cpp.i
 
 # target to preprocess a source file
 src/service_trigger.cpp.i:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/service_trigger.dir/build.make basic_pkg/CMakeFiles/service_trigger.dir/src/service_trigger.cpp.i
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/service_trigger.dir/build.make basic_pkg/CMakeFiles/service_trigger.dir/src/service_trigger.cpp.i
 .PHONY : src/service_trigger.cpp.i
 
 src/service_trigger.s: src/service_trigger.cpp.s
@@ -473,7 +473,7 @@ src/service_trigger.s: src/service_trigger.cpp.s
 
 # target to generate assembly for a file
 src/service_trigger.cpp.s:
-	cd /home/daniel/catkin_ws/build && $(MAKE) -f basic_pkg/CMakeFiles/service_trigger.dir/build.make basic_pkg/CMakeFiles/service_trigger.dir/src/service_trigger.cpp.s
+	cd /home/daniel/ros/catkin_ws_original/build && $(MAKE) -f basic_pkg/CMakeFiles/service_trigger.dir/build.make basic_pkg/CMakeFiles/service_trigger.dir/src/service_trigger.cpp.s
 .PHONY : src/service_trigger.cpp.s
 
 # Help Target
@@ -523,6 +523,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/daniel/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/daniel/ros/catkin_ws_original/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

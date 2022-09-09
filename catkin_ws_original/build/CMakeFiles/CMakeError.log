@@ -56,3 +56,123 @@ make: *** [Makefile:121: cmTC_392e9/fast] Error 2
 
 
 
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/daniel/ros/catkin_ws_original1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_20e46/fast && /usr/bin/make -f CMakeFiles/cmTC_20e46.dir/build.make CMakeFiles/cmTC_20e46.dir/build
+make[1]: 進入目錄「/home/daniel/ros/catkin_ws_original1/build/CMakeFiles/CMakeTmp」
+Building C object CMakeFiles/cmTC_20e46.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_20e46.dir/src.c.o   -c /home/daniel/ros/catkin_ws_original1/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_20e46
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20e46.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_20e46.dir/src.c.o  -o cmTC_20e46 
+/usr/bin/ld: CMakeFiles/cmTC_20e46.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_20e46.dir/build.make:87：cmTC_20e46] 錯誤 1
+make[1]: 離開目錄「/home/daniel/ros/catkin_ws_original1/build/CMakeFiles/CMakeTmp」
+make: *** [Makefile:121：cmTC_20e46/fast] 錯誤 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/daniel/ros/catkin_ws_original1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6a713/fast && /usr/bin/make -f CMakeFiles/cmTC_6a713.dir/build.make CMakeFiles/cmTC_6a713.dir/build
+make[1]: 進入目錄「/home/daniel/ros/catkin_ws_original1/build/CMakeFiles/CMakeTmp」
+Building C object CMakeFiles/cmTC_6a713.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6a713.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6a713
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a713.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_6a713.dir/CheckFunctionExists.c.o  -o cmTC_6a713  -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_6a713.dir/build.make:87：cmTC_6a713] 錯誤 1
+make[1]: 離開目錄「/home/daniel/ros/catkin_ws_original1/build/CMakeFiles/CMakeTmp」
+make: *** [Makefile:121：cmTC_6a713/fast] 錯誤 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/daniel/ros/catkin_ws_original/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_60e0b/fast && make[1]: 進入目錄「/home/daniel/ros/catkin_ws_original/build/CMakeFiles/CMakeTmp」
+/usr/bin/make -f CMakeFiles/cmTC_60e0b.dir/build.make CMakeFiles/cmTC_60e0b.dir/build
+make[2]: 進入目錄「/home/daniel/ros/catkin_ws_original/build/CMakeFiles/CMakeTmp」
+Building C object CMakeFiles/cmTC_60e0b.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_60e0b.dir/src.c.o   -c /home/daniel/ros/catkin_ws_original/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_60e0b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60e0b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_60e0b.dir/src.c.o  -o cmTC_60e0b 
+/usr/bin/ld: CMakeFiles/cmTC_60e0b.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_60e0b.dir/build.make:87：cmTC_60e0b] 錯誤 1
+make[2]: 離開目錄「/home/daniel/ros/catkin_ws_original/build/CMakeFiles/CMakeTmp」
+make[1]: *** [Makefile:121：cmTC_60e0b/fast] 錯誤 2
+make[1]: 離開目錄「/home/daniel/ros/catkin_ws_original/build/CMakeFiles/CMakeTmp」
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/daniel/ros/catkin_ws_original/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1f3f0/fast && make[1]: 進入目錄「/home/daniel/ros/catkin_ws_original/build/CMakeFiles/CMakeTmp」
+/usr/bin/make -f CMakeFiles/cmTC_1f3f0.dir/build.make CMakeFiles/cmTC_1f3f0.dir/build
+make[2]: 進入目錄「/home/daniel/ros/catkin_ws_original/build/CMakeFiles/CMakeTmp」
+Building C object CMakeFiles/cmTC_1f3f0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1f3f0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1f3f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f3f0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_1f3f0.dir/CheckFunctionExists.c.o  -o cmTC_1f3f0  -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_1f3f0.dir/build.make:87：cmTC_1f3f0] 錯誤 1
+make[2]: 離開目錄「/home/daniel/ros/catkin_ws_original/build/CMakeFiles/CMakeTmp」
+make[1]: *** [Makefile:121：cmTC_1f3f0/fast] 錯誤 2
+make[1]: 離開目錄「/home/daniel/ros/catkin_ws_original/build/CMakeFiles/CMakeTmp」
+
+
+

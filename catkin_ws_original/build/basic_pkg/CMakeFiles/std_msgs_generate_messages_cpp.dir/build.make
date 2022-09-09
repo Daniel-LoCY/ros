@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniel/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/daniel/ros/catkin_ws_original/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniel/catkin_ws/build
+CMAKE_BINARY_DIR = /home/daniel/ros/catkin_ws_original/build
 
 # Utility rule file for std_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ basic_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/build: std_msgs_generate
 .PHONY : basic_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 
 basic_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
-	cd /home/daniel/catkin_ws/build/basic_pkg && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/daniel/ros/catkin_ws_original/build/basic_pkg && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : basic_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 
 basic_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend:
-	cd /home/daniel/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/catkin_ws/src /home/daniel/catkin_ws/src/basic_pkg /home/daniel/catkin_ws/build /home/daniel/catkin_ws/build/basic_pkg /home/daniel/catkin_ws/build/basic_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/daniel/ros/catkin_ws_original/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/ros/catkin_ws_original/src /home/daniel/ros/catkin_ws_original/src/basic_pkg /home/daniel/ros/catkin_ws_original/build /home/daniel/ros/catkin_ws_original/build/basic_pkg /home/daniel/ros/catkin_ws_original/build/basic_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : basic_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
 

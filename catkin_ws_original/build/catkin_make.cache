@@ -1,2 +1,2 @@
 basic_pkg:service_tutorials_pkg:tk_pkg:tutorials_pkg
--DCATKIN_DEVEL_PREFIX=/home/daniel/catkin_ws/catkin_ws_original/devel -DCMAKE_INSTALL_PREFIX=/home/daniel/catkin_ws/catkin_ws_original/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/daniel/ros/catkin_ws_original/devel -DCMAKE_INSTALL_PREFIX=/home/daniel/ros/catkin_ws_original/install -G Unix Makefiles

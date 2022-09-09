@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/daniel/catkin_ws/devel/lib/tutorials_pkg/boardcaster"
-  "/home/daniel/catkin_ws/devel/lib/tutorials_pkg/boardcaster.pdb"
+  "../devel/lib/tutorials_pkg/boardcaster"
+  "../devel/lib/tutorials_pkg/boardcaster.pdb"
   "CMakeFiles/boardcaster.dir/src/boardcaster.cpp.o"
 )
 

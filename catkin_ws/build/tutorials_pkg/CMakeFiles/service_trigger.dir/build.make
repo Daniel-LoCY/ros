@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniel/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/daniel/ros/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniel/catkin_ws/build
+CMAKE_BINARY_DIR = /home/daniel/ros/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include tutorials_pkg/CMakeFiles/service_trigger.dir/depend.make
@@ -58,17 +58,17 @@ include tutorials_pkg/CMakeFiles/service_trigger.dir/progress.make
 include tutorials_pkg/CMakeFiles/service_trigger.dir/flags.make
 
 tutorials_pkg/CMakeFiles/service_trigger.dir/src/service_trigger.cpp.o: tutorials_pkg/CMakeFiles/service_trigger.dir/flags.make
-tutorials_pkg/CMakeFiles/service_trigger.dir/src/service_trigger.cpp.o: /home/daniel/catkin_ws/src/tutorials_pkg/src/service_trigger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tutorials_pkg/CMakeFiles/service_trigger.dir/src/service_trigger.cpp.o"
-	cd /home/daniel/catkin_ws/build/tutorials_pkg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/service_trigger.dir/src/service_trigger.cpp.o -c /home/daniel/catkin_ws/src/tutorials_pkg/src/service_trigger.cpp
+tutorials_pkg/CMakeFiles/service_trigger.dir/src/service_trigger.cpp.o: /home/daniel/ros/catkin_ws/src/tutorials_pkg/src/service_trigger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tutorials_pkg/CMakeFiles/service_trigger.dir/src/service_trigger.cpp.o"
+	cd /home/daniel/ros/catkin_ws/build/tutorials_pkg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/service_trigger.dir/src/service_trigger.cpp.o -c /home/daniel/ros/catkin_ws/src/tutorials_pkg/src/service_trigger.cpp
 
 tutorials_pkg/CMakeFiles/service_trigger.dir/src/service_trigger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/service_trigger.dir/src/service_trigger.cpp.i"
-	cd /home/daniel/catkin_ws/build/tutorials_pkg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniel/catkin_ws/src/tutorials_pkg/src/service_trigger.cpp > CMakeFiles/service_trigger.dir/src/service_trigger.cpp.i
+	cd /home/daniel/ros/catkin_ws/build/tutorials_pkg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniel/ros/catkin_ws/src/tutorials_pkg/src/service_trigger.cpp > CMakeFiles/service_trigger.dir/src/service_trigger.cpp.i
 
 tutorials_pkg/CMakeFiles/service_trigger.dir/src/service_trigger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/service_trigger.dir/src/service_trigger.cpp.s"
-	cd /home/daniel/catkin_ws/build/tutorials_pkg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniel/catkin_ws/src/tutorials_pkg/src/service_trigger.cpp -o CMakeFiles/service_trigger.dir/src/service_trigger.cpp.s
+	cd /home/daniel/ros/catkin_ws/build/tutorials_pkg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniel/ros/catkin_ws/src/tutorials_pkg/src/service_trigger.cpp -o CMakeFiles/service_trigger.dir/src/service_trigger.cpp.s
 
 # Object files for target service_trigger
 service_trigger_OBJECTS = \
@@ -77,44 +77,44 @@ service_trigger_OBJECTS = \
 # External object files for target service_trigger
 service_trigger_EXTERNAL_OBJECTS =
 
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: tutorials_pkg/CMakeFiles/service_trigger.dir/src/service_trigger.cpp.o
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: tutorials_pkg/CMakeFiles/service_trigger.dir/build.make
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/libtf.so
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/libtf2_ros.so
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/libactionlib.so
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/libmessage_filters.so
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/libroscpp.so
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/libtf2.so
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/librosconsole.so
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/librostime.so
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/libcpp_common.so
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger: tutorials_pkg/CMakeFiles/service_trigger.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daniel/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger"
-	cd /home/daniel/catkin_ws/build/tutorials_pkg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/service_trigger.dir/link.txt --verbose=$(VERBOSE)
+devel/lib/tutorials_pkg/service_trigger: tutorials_pkg/CMakeFiles/service_trigger.dir/src/service_trigger.cpp.o
+devel/lib/tutorials_pkg/service_trigger: tutorials_pkg/CMakeFiles/service_trigger.dir/build.make
+devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/libtf.so
+devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/libtf2_ros.so
+devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/libactionlib.so
+devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/libmessage_filters.so
+devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/libroscpp.so
+devel/lib/tutorials_pkg/service_trigger: /usr/lib/x86_64-linux-gnu/libpthread.so
+devel/lib/tutorials_pkg/service_trigger: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+devel/lib/tutorials_pkg/service_trigger: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/libxmlrpcpp.so
+devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/libtf2.so
+devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/libroscpp_serialization.so
+devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/librosconsole.so
+devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+devel/lib/tutorials_pkg/service_trigger: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+devel/lib/tutorials_pkg/service_trigger: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/librostime.so
+devel/lib/tutorials_pkg/service_trigger: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+devel/lib/tutorials_pkg/service_trigger: /opt/ros/noetic/lib/libcpp_common.so
+devel/lib/tutorials_pkg/service_trigger: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+devel/lib/tutorials_pkg/service_trigger: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+devel/lib/tutorials_pkg/service_trigger: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+devel/lib/tutorials_pkg/service_trigger: tutorials_pkg/CMakeFiles/service_trigger.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daniel/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../devel/lib/tutorials_pkg/service_trigger"
+	cd /home/daniel/ros/catkin_ws/build/tutorials_pkg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/service_trigger.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-tutorials_pkg/CMakeFiles/service_trigger.dir/build: /home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger
+tutorials_pkg/CMakeFiles/service_trigger.dir/build: devel/lib/tutorials_pkg/service_trigger
 
 .PHONY : tutorials_pkg/CMakeFiles/service_trigger.dir/build
 
 tutorials_pkg/CMakeFiles/service_trigger.dir/clean:
-	cd /home/daniel/catkin_ws/build/tutorials_pkg && $(CMAKE_COMMAND) -P CMakeFiles/service_trigger.dir/cmake_clean.cmake
+	cd /home/daniel/ros/catkin_ws/build/tutorials_pkg && $(CMAKE_COMMAND) -P CMakeFiles/service_trigger.dir/cmake_clean.cmake
 .PHONY : tutorials_pkg/CMakeFiles/service_trigger.dir/clean
 
 tutorials_pkg/CMakeFiles/service_trigger.dir/depend:
-	cd /home/daniel/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/catkin_ws/src /home/daniel/catkin_ws/src/tutorials_pkg /home/daniel/catkin_ws/build /home/daniel/catkin_ws/build/tutorials_pkg /home/daniel/catkin_ws/build/tutorials_pkg/CMakeFiles/service_trigger.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/daniel/ros/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/ros/catkin_ws/src /home/daniel/ros/catkin_ws/src/tutorials_pkg /home/daniel/ros/catkin_ws/build /home/daniel/ros/catkin_ws/build/tutorials_pkg /home/daniel/ros/catkin_ws/build/tutorials_pkg/CMakeFiles/service_trigger.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tutorials_pkg/CMakeFiles/service_trigger.dir/depend
 

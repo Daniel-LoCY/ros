@@ -1,8 +1,8 @@
-# Install script for directory: /home/daniel/catkin_ws/src/basic_pkg
+# Install script for directory: /home/daniel/ros/catkin_ws_original/src/basic_pkg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/daniel/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/daniel/catkin_ws/build/basic_pkg/catkin_generated/installspace/basic_pkg.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/daniel/ros/catkin_ws_original/build/basic_pkg/catkin_generated/installspace/basic_pkg.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basic_pkg/cmake" TYPE FILE FILES
-    "/home/daniel/catkin_ws/build/basic_pkg/catkin_generated/installspace/basic_pkgConfig.cmake"
-    "/home/daniel/catkin_ws/build/basic_pkg/catkin_generated/installspace/basic_pkgConfig-version.cmake"
+    "/home/daniel/ros/catkin_ws_original/build/basic_pkg/catkin_generated/installspace/basic_pkgConfig.cmake"
+    "/home/daniel/ros/catkin_ws_original/build/basic_pkg/catkin_generated/installspace/basic_pkgConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basic_pkg" TYPE FILE FILES "/home/daniel/catkin_ws/src/basic_pkg/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basic_pkg" TYPE FILE FILES "/home/daniel/ros/catkin_ws_original/src/basic_pkg/package.xml")
 endif()
 

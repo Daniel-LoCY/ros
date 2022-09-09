@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniel/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/daniel/ros/catkin_ws_original/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniel/catkin_ws/build
+CMAKE_BINARY_DIR = /home/daniel/ros/catkin_ws_original/build
 
 # Include any dependencies generated for this target.
 include service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/depend.make
@@ -58,17 +58,17 @@ include service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/progress.make
 include service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/flags.make
 
 service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o: service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/flags.make
-service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o: /home/daniel/catkin_ws/src/service_tutorials_pkg/src/add_two_ints_client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o"
-	cd /home/daniel/catkin_ws/build/service_tutorials_pkg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o -c /home/daniel/catkin_ws/src/service_tutorials_pkg/src/add_two_ints_client.cpp
+service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o: /home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg/src/add_two_ints_client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daniel/ros/catkin_ws_original/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o"
+	cd /home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o -c /home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg/src/add_two_ints_client.cpp
 
 service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.i"
-	cd /home/daniel/catkin_ws/build/service_tutorials_pkg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniel/catkin_ws/src/service_tutorials_pkg/src/add_two_ints_client.cpp > CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.i
+	cd /home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg/src/add_two_ints_client.cpp > CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.i
 
 service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.s"
-	cd /home/daniel/catkin_ws/build/service_tutorials_pkg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniel/catkin_ws/src/service_tutorials_pkg/src/add_two_ints_client.cpp -o CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.s
+	cd /home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg/src/add_two_ints_client.cpp -o CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.s
 
 # Object files for target add_two_ints_client
 add_two_ints_client_OBJECTS = \
@@ -77,39 +77,39 @@ add_two_ints_client_OBJECTS = \
 # External object files for target add_two_ints_client
 add_two_ints_client_EXTERNAL_OBJECTS =
 
-/home/daniel/catkin_ws/devel/lib/service_tutorials_pkg/add_two_ints_client: service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o
-/home/daniel/catkin_ws/devel/lib/service_tutorials_pkg/add_two_ints_client: service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/build.make
-/home/daniel/catkin_ws/devel/lib/service_tutorials_pkg/add_two_ints_client: /opt/ros/noetic/lib/libroscpp.so
-/home/daniel/catkin_ws/devel/lib/service_tutorials_pkg/add_two_ints_client: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/daniel/catkin_ws/devel/lib/service_tutorials_pkg/add_two_ints_client: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/daniel/catkin_ws/devel/lib/service_tutorials_pkg/add_two_ints_client: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/daniel/catkin_ws/devel/lib/service_tutorials_pkg/add_two_ints_client: /opt/ros/noetic/lib/librosconsole.so
-/home/daniel/catkin_ws/devel/lib/service_tutorials_pkg/add_two_ints_client: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/daniel/catkin_ws/devel/lib/service_tutorials_pkg/add_two_ints_client: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/daniel/catkin_ws/devel/lib/service_tutorials_pkg/add_two_ints_client: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/daniel/catkin_ws/devel/lib/service_tutorials_pkg/add_two_ints_client: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/daniel/catkin_ws/devel/lib/service_tutorials_pkg/add_two_ints_client: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/daniel/catkin_ws/devel/lib/service_tutorials_pkg/add_two_ints_client: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/daniel/catkin_ws/devel/lib/service_tutorials_pkg/add_two_ints_client: /opt/ros/noetic/lib/librostime.so
-/home/daniel/catkin_ws/devel/lib/service_tutorials_pkg/add_two_ints_client: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/daniel/catkin_ws/devel/lib/service_tutorials_pkg/add_two_ints_client: /opt/ros/noetic/lib/libcpp_common.so
-/home/daniel/catkin_ws/devel/lib/service_tutorials_pkg/add_two_ints_client: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/daniel/catkin_ws/devel/lib/service_tutorials_pkg/add_two_ints_client: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/daniel/catkin_ws/devel/lib/service_tutorials_pkg/add_two_ints_client: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/daniel/catkin_ws/devel/lib/service_tutorials_pkg/add_two_ints_client: service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daniel/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/daniel/catkin_ws/devel/lib/service_tutorials_pkg/add_two_ints_client"
-	cd /home/daniel/catkin_ws/build/service_tutorials_pkg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/add_two_ints_client.dir/link.txt --verbose=$(VERBOSE)
+devel/lib/service_tutorials_pkg/add_two_ints_client: service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o
+devel/lib/service_tutorials_pkg/add_two_ints_client: service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/build.make
+devel/lib/service_tutorials_pkg/add_two_ints_client: /opt/ros/noetic/lib/libroscpp.so
+devel/lib/service_tutorials_pkg/add_two_ints_client: /usr/lib/x86_64-linux-gnu/libpthread.so
+devel/lib/service_tutorials_pkg/add_two_ints_client: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+devel/lib/service_tutorials_pkg/add_two_ints_client: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+devel/lib/service_tutorials_pkg/add_two_ints_client: /opt/ros/noetic/lib/librosconsole.so
+devel/lib/service_tutorials_pkg/add_two_ints_client: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+devel/lib/service_tutorials_pkg/add_two_ints_client: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+devel/lib/service_tutorials_pkg/add_two_ints_client: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+devel/lib/service_tutorials_pkg/add_two_ints_client: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+devel/lib/service_tutorials_pkg/add_two_ints_client: /opt/ros/noetic/lib/libxmlrpcpp.so
+devel/lib/service_tutorials_pkg/add_two_ints_client: /opt/ros/noetic/lib/libroscpp_serialization.so
+devel/lib/service_tutorials_pkg/add_two_ints_client: /opt/ros/noetic/lib/librostime.so
+devel/lib/service_tutorials_pkg/add_two_ints_client: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+devel/lib/service_tutorials_pkg/add_two_ints_client: /opt/ros/noetic/lib/libcpp_common.so
+devel/lib/service_tutorials_pkg/add_two_ints_client: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+devel/lib/service_tutorials_pkg/add_two_ints_client: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+devel/lib/service_tutorials_pkg/add_two_ints_client: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+devel/lib/service_tutorials_pkg/add_two_ints_client: service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daniel/ros/catkin_ws_original/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../devel/lib/service_tutorials_pkg/add_two_ints_client"
+	cd /home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/add_two_ints_client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/build: /home/daniel/catkin_ws/devel/lib/service_tutorials_pkg/add_two_ints_client
+service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/build: devel/lib/service_tutorials_pkg/add_two_ints_client
 
 .PHONY : service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/build
 
 service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/clean:
-	cd /home/daniel/catkin_ws/build/service_tutorials_pkg && $(CMAKE_COMMAND) -P CMakeFiles/add_two_ints_client.dir/cmake_clean.cmake
+	cd /home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg && $(CMAKE_COMMAND) -P CMakeFiles/add_two_ints_client.dir/cmake_clean.cmake
 .PHONY : service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/clean
 
 service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/depend:
-	cd /home/daniel/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/catkin_ws/src /home/daniel/catkin_ws/src/service_tutorials_pkg /home/daniel/catkin_ws/build /home/daniel/catkin_ws/build/service_tutorials_pkg /home/daniel/catkin_ws/build/service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/daniel/ros/catkin_ws_original/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/ros/catkin_ws_original/src /home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg /home/daniel/ros/catkin_ws_original/build /home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg /home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : service_tutorials_pkg/CMakeFiles/add_two_ints_client.dir/depend
 

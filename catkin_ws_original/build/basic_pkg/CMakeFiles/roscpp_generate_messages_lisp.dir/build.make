@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniel/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/daniel/ros/catkin_ws_original/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniel/catkin_ws/build
+CMAKE_BINARY_DIR = /home/daniel/ros/catkin_ws_original/build
 
 # Utility rule file for roscpp_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ basic_pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/build: roscpp_generate_me
 .PHONY : basic_pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 
 basic_pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
-	cd /home/daniel/catkin_ws/build/basic_pkg && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/daniel/ros/catkin_ws_original/build/basic_pkg && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : basic_pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 basic_pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/depend:
-	cd /home/daniel/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/catkin_ws/src /home/daniel/catkin_ws/src/basic_pkg /home/daniel/catkin_ws/build /home/daniel/catkin_ws/build/basic_pkg /home/daniel/catkin_ws/build/basic_pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/daniel/ros/catkin_ws_original/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/ros/catkin_ws_original/src /home/daniel/ros/catkin_ws_original/src/basic_pkg /home/daniel/ros/catkin_ws_original/build /home/daniel/ros/catkin_ws_original/build/basic_pkg /home/daniel/ros/catkin_ws_original/build/basic_pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : basic_pkg/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
 

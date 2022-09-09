@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniel/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/daniel/ros/catkin_ws_original/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniel/catkin_ws/build
+CMAKE_BINARY_DIR = /home/daniel/ros/catkin_ws_original/build
 
 # Utility rule file for tf2_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ tk_pkg/CMakeFiles/tf2_msgs_generate_messages_py.dir/build: tf2_msgs_generate_mes
 .PHONY : tk_pkg/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
 
 tk_pkg/CMakeFiles/tf2_msgs_generate_messages_py.dir/clean:
-	cd /home/daniel/catkin_ws/build/tk_pkg && $(CMAKE_COMMAND) -P CMakeFiles/tf2_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/daniel/ros/catkin_ws_original/build/tk_pkg && $(CMAKE_COMMAND) -P CMakeFiles/tf2_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : tk_pkg/CMakeFiles/tf2_msgs_generate_messages_py.dir/clean
 
 tk_pkg/CMakeFiles/tf2_msgs_generate_messages_py.dir/depend:
-	cd /home/daniel/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/catkin_ws/src /home/daniel/catkin_ws/src/tk_pkg /home/daniel/catkin_ws/build /home/daniel/catkin_ws/build/tk_pkg /home/daniel/catkin_ws/build/tk_pkg/CMakeFiles/tf2_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/daniel/ros/catkin_ws_original/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/ros/catkin_ws_original/src /home/daniel/ros/catkin_ws_original/src/tk_pkg /home/daniel/ros/catkin_ws_original/build /home/daniel/ros/catkin_ws_original/build/tk_pkg /home/daniel/ros/catkin_ws_original/build/tk_pkg/CMakeFiles/tf2_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tk_pkg/CMakeFiles/tf2_msgs_generate_messages_py.dir/depend
 

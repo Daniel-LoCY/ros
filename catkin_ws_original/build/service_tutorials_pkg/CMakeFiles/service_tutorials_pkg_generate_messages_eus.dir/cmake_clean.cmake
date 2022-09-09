@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/daniel/catkin_ws/devel/share/roseus/ros/service_tutorials_pkg/manifest.l"
-  "/home/daniel/catkin_ws/devel/share/roseus/ros/service_tutorials_pkg/srv/AddTwoInts.l"
+  "../devel/share/roseus/ros/service_tutorials_pkg/manifest.l"
+  "../devel/share/roseus/ros/service_tutorials_pkg/srv/AddTwoInts.l"
   "CMakeFiles/service_tutorials_pkg_generate_messages_eus"
 )
 

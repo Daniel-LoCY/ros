@@ -1,4 +1,4 @@
-prefix=/home/daniel/catkin_ws/install
+prefix=/usr/local
 
 Name: basic_pkg
 Description: Description of basic_pkg

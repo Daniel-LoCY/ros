@@ -1,5 +1,5 @@
 #include "ros/ros.h"
-#include "service_tutorials_pkg/AddTwoInts.h"
+#include "tutorials_pkg/AddTwoInts.h"
 #include <cstdlib>
 
 int main(int argc, char **argv)
@@ -12,8 +12,8 @@ int main(int argc, char **argv)
     }
 
     ros::NodeHandle n;
-    ros::ServiceClient client = n.serviceClient<service_tutorials_pkg::AddTwoInts>("add_two_ints");
-    service_tutorials_pkg::AddTwoInts srv;
+    ros::ServiceClient client = n.serviceClient<tutorials_pkg::AddTwoInts>("add_two_ints");
+    tutorials_pkg::AddTwoInts srv;
     srv.request.a = atoll(argv[1]);
     srv.request.b = atoll(argv[2]);
     if (client.call(srv))

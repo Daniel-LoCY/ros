@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/daniel/catkin_ws/devel/share/common-lisp/ros/service_tutorials_pkg/srv/AddTwoInts.lisp"
+  "../devel/share/common-lisp/ros/service_tutorials_pkg/srv/AddTwoInts.lisp"
   "CMakeFiles/service_tutorials_pkg_generate_messages_lisp"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger"
-  "/home/daniel/catkin_ws/devel/lib/tutorials_pkg/service_trigger.pdb"
+  "../devel/lib/tutorials_pkg/service_trigger"
+  "../devel/lib/tutorials_pkg/service_trigger.pdb"
   "CMakeFiles/service_trigger.dir/src/service_trigger.cpp.o"
 )
 

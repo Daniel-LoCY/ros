@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/daniel/catkin_ws/src/basic_pkg/src/service_trigger.cpp
+/home/daniel/ros/catkin_ws_original/src/basic_pkg/src/service_trigger.cpp
 ros/ros.h
-/home/daniel/catkin_ws/src/basic_pkg/src/ros/ros.h
+/home/daniel/ros/catkin_ws_original/src/basic_pkg/src/ros/ros.h
 std_srvs/Empty.h
-/home/daniel/catkin_ws/src/basic_pkg/src/std_srvs/Empty.h
+/home/daniel/ros/catkin_ws_original/src/basic_pkg/src/std_srvs/Empty.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h

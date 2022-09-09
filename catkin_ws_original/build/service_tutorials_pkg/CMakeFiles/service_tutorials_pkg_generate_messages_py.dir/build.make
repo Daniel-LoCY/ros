@@ -43,33 +43,33 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniel/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/daniel/ros/catkin_ws_original/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniel/catkin_ws/build
+CMAKE_BINARY_DIR = /home/daniel/ros/catkin_ws_original/build
 
 # Utility rule file for service_tutorials_pkg_generate_messages_py.
 
 # Include the progress variables for this target.
 include service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_py.dir/progress.make
 
-service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_py: /home/daniel/catkin_ws/devel/lib/python3/dist-packages/service_tutorials_pkg/srv/_AddTwoInts.py
-service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_py: /home/daniel/catkin_ws/devel/lib/python3/dist-packages/service_tutorials_pkg/srv/__init__.py
+service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_py: devel/lib/python3/dist-packages/service_tutorials_pkg/srv/_AddTwoInts.py
+service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_py: devel/lib/python3/dist-packages/service_tutorials_pkg/srv/__init__.py
 
 
-/home/daniel/catkin_ws/devel/lib/python3/dist-packages/service_tutorials_pkg/srv/_AddTwoInts.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/daniel/catkin_ws/devel/lib/python3/dist-packages/service_tutorials_pkg/srv/_AddTwoInts.py: /home/daniel/catkin_ws/src/service_tutorials_pkg/srv/AddTwoInts.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daniel/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV service_tutorials_pkg/AddTwoInts"
-	cd /home/daniel/catkin_ws/build/service_tutorials_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/daniel/catkin_ws/src/service_tutorials_pkg/srv/AddTwoInts.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p service_tutorials_pkg -o /home/daniel/catkin_ws/devel/lib/python3/dist-packages/service_tutorials_pkg/srv
+devel/lib/python3/dist-packages/service_tutorials_pkg/srv/_AddTwoInts.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+devel/lib/python3/dist-packages/service_tutorials_pkg/srv/_AddTwoInts.py: /home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg/srv/AddTwoInts.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daniel/ros/catkin_ws_original/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV service_tutorials_pkg/AddTwoInts"
+	cd /home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg/srv/AddTwoInts.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p service_tutorials_pkg -o /home/daniel/ros/catkin_ws_original/build/devel/lib/python3/dist-packages/service_tutorials_pkg/srv
 
-/home/daniel/catkin_ws/devel/lib/python3/dist-packages/service_tutorials_pkg/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/daniel/catkin_ws/devel/lib/python3/dist-packages/service_tutorials_pkg/srv/__init__.py: /home/daniel/catkin_ws/devel/lib/python3/dist-packages/service_tutorials_pkg/srv/_AddTwoInts.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daniel/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for service_tutorials_pkg"
-	cd /home/daniel/catkin_ws/build/service_tutorials_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/daniel/catkin_ws/devel/lib/python3/dist-packages/service_tutorials_pkg/srv --initpy
+devel/lib/python3/dist-packages/service_tutorials_pkg/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+devel/lib/python3/dist-packages/service_tutorials_pkg/srv/__init__.py: devel/lib/python3/dist-packages/service_tutorials_pkg/srv/_AddTwoInts.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daniel/ros/catkin_ws_original/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for service_tutorials_pkg"
+	cd /home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/daniel/ros/catkin_ws_original/build/devel/lib/python3/dist-packages/service_tutorials_pkg/srv --initpy
 
 service_tutorials_pkg_generate_messages_py: service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_py
-service_tutorials_pkg_generate_messages_py: /home/daniel/catkin_ws/devel/lib/python3/dist-packages/service_tutorials_pkg/srv/_AddTwoInts.py
-service_tutorials_pkg_generate_messages_py: /home/daniel/catkin_ws/devel/lib/python3/dist-packages/service_tutorials_pkg/srv/__init__.py
+service_tutorials_pkg_generate_messages_py: devel/lib/python3/dist-packages/service_tutorials_pkg/srv/_AddTwoInts.py
+service_tutorials_pkg_generate_messages_py: devel/lib/python3/dist-packages/service_tutorials_pkg/srv/__init__.py
 service_tutorials_pkg_generate_messages_py: service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_py.dir/build.make
 
 .PHONY : service_tutorials_pkg_generate_messages_py
@@ -80,10 +80,10 @@ service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_py.dir/
 .PHONY : service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_py.dir/build
 
 service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_py.dir/clean:
-	cd /home/daniel/catkin_ws/build/service_tutorials_pkg && $(CMAKE_COMMAND) -P CMakeFiles/service_tutorials_pkg_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg && $(CMAKE_COMMAND) -P CMakeFiles/service_tutorials_pkg_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_py.dir/clean
 
 service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_py.dir/depend:
-	cd /home/daniel/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/catkin_ws/src /home/daniel/catkin_ws/src/service_tutorials_pkg /home/daniel/catkin_ws/build /home/daniel/catkin_ws/build/service_tutorials_pkg /home/daniel/catkin_ws/build/service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/daniel/ros/catkin_ws_original/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/ros/catkin_ws_original/src /home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg /home/daniel/ros/catkin_ws_original/build /home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg /home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_py.dir/depend
 

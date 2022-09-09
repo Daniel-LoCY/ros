@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/daniel/catkin_ws/src/tutorials_pkg/src/helloworld.cpp
+/home/daniel/ros/catkin_ws_original/src/tutorials_pkg/src/helloworld.cpp
 ros/ros.h
 -
 

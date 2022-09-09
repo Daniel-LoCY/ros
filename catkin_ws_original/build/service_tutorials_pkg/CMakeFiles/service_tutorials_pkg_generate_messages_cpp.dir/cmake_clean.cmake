@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/daniel/catkin_ws/devel/include/service_tutorials_pkg/AddTwoInts.h"
+  "../devel/include/service_tutorials_pkg/AddTwoInts.h"
   "CMakeFiles/service_tutorials_pkg_generate_messages_cpp"
 )
 

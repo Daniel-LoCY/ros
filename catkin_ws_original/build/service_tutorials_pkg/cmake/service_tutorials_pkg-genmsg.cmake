@@ -17,9 +17,9 @@ add_custom_target(service_tutorials_pkg_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/daniel/catkin_ws/src/service_tutorials_pkg/srv/AddTwoInts.srv" NAME_WE)
+get_filename_component(_filename "/home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg/srv/AddTwoInts.srv" NAME_WE)
 add_custom_target(_service_tutorials_pkg_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "service_tutorials_pkg" "/home/daniel/catkin_ws/src/service_tutorials_pkg/srv/AddTwoInts.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "service_tutorials_pkg" "/home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg/srv/AddTwoInts.srv" ""
 )
 
 #
@@ -31,7 +31,7 @@ add_custom_target(_service_tutorials_pkg_generate_messages_check_deps_${_filenam
 
 ### Generating Services
 _generate_srv_cpp(service_tutorials_pkg
-  "/home/daniel/catkin_ws/src/service_tutorials_pkg/srv/AddTwoInts.srv"
+  "/home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg/srv/AddTwoInts.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/service_tutorials_pkg
@@ -49,7 +49,7 @@ add_custom_target(service_tutorials_pkg_generate_messages_cpp
 add_dependencies(service_tutorials_pkg_generate_messages service_tutorials_pkg_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/daniel/catkin_ws/src/service_tutorials_pkg/srv/AddTwoInts.srv" NAME_WE)
+get_filename_component(_filename "/home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg/srv/AddTwoInts.srv" NAME_WE)
 add_dependencies(service_tutorials_pkg_generate_messages_cpp _service_tutorials_pkg_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -64,7 +64,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS service_tutorials_pkg_generate_mess
 
 ### Generating Services
 _generate_srv_eus(service_tutorials_pkg
-  "/home/daniel/catkin_ws/src/service_tutorials_pkg/srv/AddTwoInts.srv"
+  "/home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg/srv/AddTwoInts.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/service_tutorials_pkg
@@ -82,7 +82,7 @@ add_custom_target(service_tutorials_pkg_generate_messages_eus
 add_dependencies(service_tutorials_pkg_generate_messages service_tutorials_pkg_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/daniel/catkin_ws/src/service_tutorials_pkg/srv/AddTwoInts.srv" NAME_WE)
+get_filename_component(_filename "/home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg/srv/AddTwoInts.srv" NAME_WE)
 add_dependencies(service_tutorials_pkg_generate_messages_eus _service_tutorials_pkg_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -97,7 +97,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS service_tutorials_pkg_generate_mess
 
 ### Generating Services
 _generate_srv_lisp(service_tutorials_pkg
-  "/home/daniel/catkin_ws/src/service_tutorials_pkg/srv/AddTwoInts.srv"
+  "/home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg/srv/AddTwoInts.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/service_tutorials_pkg
@@ -115,7 +115,7 @@ add_custom_target(service_tutorials_pkg_generate_messages_lisp
 add_dependencies(service_tutorials_pkg_generate_messages service_tutorials_pkg_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/daniel/catkin_ws/src/service_tutorials_pkg/srv/AddTwoInts.srv" NAME_WE)
+get_filename_component(_filename "/home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg/srv/AddTwoInts.srv" NAME_WE)
 add_dependencies(service_tutorials_pkg_generate_messages_lisp _service_tutorials_pkg_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -130,7 +130,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS service_tutorials_pkg_generate_mess
 
 ### Generating Services
 _generate_srv_nodejs(service_tutorials_pkg
-  "/home/daniel/catkin_ws/src/service_tutorials_pkg/srv/AddTwoInts.srv"
+  "/home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg/srv/AddTwoInts.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/service_tutorials_pkg
@@ -148,7 +148,7 @@ add_custom_target(service_tutorials_pkg_generate_messages_nodejs
 add_dependencies(service_tutorials_pkg_generate_messages service_tutorials_pkg_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/daniel/catkin_ws/src/service_tutorials_pkg/srv/AddTwoInts.srv" NAME_WE)
+get_filename_component(_filename "/home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg/srv/AddTwoInts.srv" NAME_WE)
 add_dependencies(service_tutorials_pkg_generate_messages_nodejs _service_tutorials_pkg_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -163,7 +163,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS service_tutorials_pkg_generate_mess
 
 ### Generating Services
 _generate_srv_py(service_tutorials_pkg
-  "/home/daniel/catkin_ws/src/service_tutorials_pkg/srv/AddTwoInts.srv"
+  "/home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg/srv/AddTwoInts.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/service_tutorials_pkg
@@ -181,7 +181,7 @@ add_custom_target(service_tutorials_pkg_generate_messages_py
 add_dependencies(service_tutorials_pkg_generate_messages service_tutorials_pkg_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/daniel/catkin_ws/src/service_tutorials_pkg/srv/AddTwoInts.srv" NAME_WE)
+get_filename_component(_filename "/home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg/srv/AddTwoInts.srv" NAME_WE)
 add_dependencies(service_tutorials_pkg_generate_messages_py _service_tutorials_pkg_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

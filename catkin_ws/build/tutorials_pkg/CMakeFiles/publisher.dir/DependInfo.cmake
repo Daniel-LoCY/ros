@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/daniel/catkin_ws/src/tutorials_pkg/src/publisher.cpp" "/home/daniel/catkin_ws/build/tutorials_pkg/CMakeFiles/publisher.dir/src/publisher.cpp.o"
+  "/home/daniel/ros/catkin_ws/src/tutorials_pkg/src/publisher.cpp" "/home/daniel/ros/catkin_ws/build/tutorials_pkg/CMakeFiles/publisher.dir/src/publisher.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/daniel/catkin_ws/devel/include"
+  "devel/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

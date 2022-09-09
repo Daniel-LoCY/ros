@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniel/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/daniel/ros/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniel/catkin_ws/build
+CMAKE_BINARY_DIR = /home/daniel/ros/catkin_ws/build
 
 # Utility rule file for _tutorials_pkg_generate_messages_check_deps_AddTwoInts.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/daniel/catkin_ws/build
 include tutorials_pkg/CMakeFiles/_tutorials_pkg_generate_messages_check_deps_AddTwoInts.dir/progress.make
 
 tutorials_pkg/CMakeFiles/_tutorials_pkg_generate_messages_check_deps_AddTwoInts:
-	cd /home/daniel/catkin_ws/build/tutorials_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py tutorials_pkg /home/daniel/catkin_ws/src/tutorials_pkg/srv/AddTwoInts.srv 
+	cd /home/daniel/ros/catkin_ws/build/tutorials_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py tutorials_pkg /home/daniel/ros/catkin_ws/src/tutorials_pkg/srv/AddTwoInts.srv 
 
 _tutorials_pkg_generate_messages_check_deps_AddTwoInts: tutorials_pkg/CMakeFiles/_tutorials_pkg_generate_messages_check_deps_AddTwoInts
 _tutorials_pkg_generate_messages_check_deps_AddTwoInts: tutorials_pkg/CMakeFiles/_tutorials_pkg_generate_messages_check_deps_AddTwoInts.dir/build.make
@@ -67,10 +67,10 @@ tutorials_pkg/CMakeFiles/_tutorials_pkg_generate_messages_check_deps_AddTwoInts.
 .PHONY : tutorials_pkg/CMakeFiles/_tutorials_pkg_generate_messages_check_deps_AddTwoInts.dir/build
 
 tutorials_pkg/CMakeFiles/_tutorials_pkg_generate_messages_check_deps_AddTwoInts.dir/clean:
-	cd /home/daniel/catkin_ws/build/tutorials_pkg && $(CMAKE_COMMAND) -P CMakeFiles/_tutorials_pkg_generate_messages_check_deps_AddTwoInts.dir/cmake_clean.cmake
+	cd /home/daniel/ros/catkin_ws/build/tutorials_pkg && $(CMAKE_COMMAND) -P CMakeFiles/_tutorials_pkg_generate_messages_check_deps_AddTwoInts.dir/cmake_clean.cmake
 .PHONY : tutorials_pkg/CMakeFiles/_tutorials_pkg_generate_messages_check_deps_AddTwoInts.dir/clean
 
 tutorials_pkg/CMakeFiles/_tutorials_pkg_generate_messages_check_deps_AddTwoInts.dir/depend:
-	cd /home/daniel/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/catkin_ws/src /home/daniel/catkin_ws/src/tutorials_pkg /home/daniel/catkin_ws/build /home/daniel/catkin_ws/build/tutorials_pkg /home/daniel/catkin_ws/build/tutorials_pkg/CMakeFiles/_tutorials_pkg_generate_messages_check_deps_AddTwoInts.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/daniel/ros/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/ros/catkin_ws/src /home/daniel/ros/catkin_ws/src/tutorials_pkg /home/daniel/ros/catkin_ws/build /home/daniel/ros/catkin_ws/build/tutorials_pkg /home/daniel/ros/catkin_ws/build/tutorials_pkg/CMakeFiles/_tutorials_pkg_generate_messages_check_deps_AddTwoInts.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tutorials_pkg/CMakeFiles/_tutorials_pkg_generate_messages_check_deps_AddTwoInts.dir/depend
 

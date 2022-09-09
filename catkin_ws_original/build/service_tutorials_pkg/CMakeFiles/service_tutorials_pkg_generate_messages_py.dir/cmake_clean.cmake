@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/daniel/catkin_ws/devel/lib/python3/dist-packages/service_tutorials_pkg/srv/_AddTwoInts.py"
-  "/home/daniel/catkin_ws/devel/lib/python3/dist-packages/service_tutorials_pkg/srv/__init__.py"
+  "../devel/lib/python3/dist-packages/service_tutorials_pkg/srv/_AddTwoInts.py"
+  "../devel/lib/python3/dist-packages/service_tutorials_pkg/srv/__init__.py"
   "CMakeFiles/service_tutorials_pkg_generate_messages_py"
 )
 

@@ -67,14 +67,14 @@ set(service_tutorials_pkg_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(service_tutorials_pkg_SOURCE_PREFIX /home/daniel/catkin_ws/src/service_tutorials_pkg)
-  set(service_tutorials_pkg_DEVEL_PREFIX /home/daniel/catkin_ws/devel)
+  set(service_tutorials_pkg_SOURCE_PREFIX /home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg)
+  set(service_tutorials_pkg_DEVEL_PREFIX /home/daniel/ros/catkin_ws_original/build/devel)
   set(service_tutorials_pkg_INSTALL_PREFIX "")
   set(service_tutorials_pkg_PREFIX ${service_tutorials_pkg_DEVEL_PREFIX})
 else()
   set(service_tutorials_pkg_SOURCE_PREFIX "")
   set(service_tutorials_pkg_DEVEL_PREFIX "")
-  set(service_tutorials_pkg_INSTALL_PREFIX /home/daniel/catkin_ws/install)
+  set(service_tutorials_pkg_INSTALL_PREFIX /usr/local)
   set(service_tutorials_pkg_PREFIX ${service_tutorials_pkg_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/daniel/catkin_ws/install/lib;/home/daniel/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /usr/local/lib;/home/daniel/ros/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/daniel/catkin_ws/devel/lib/tutorials_pkg/subscriber"
-  "/home/daniel/catkin_ws/devel/lib/tutorials_pkg/subscriber.pdb"
+  "../devel/lib/tutorials_pkg/subscriber"
+  "../devel/lib/tutorials_pkg/subscriber.pdb"
   "CMakeFiles/subscriber.dir/src/subscriber.cpp.o"
 )
 

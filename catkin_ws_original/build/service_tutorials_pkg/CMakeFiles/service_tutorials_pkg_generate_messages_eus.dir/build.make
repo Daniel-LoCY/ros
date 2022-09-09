@@ -43,32 +43,32 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/daniel/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/daniel/ros/catkin_ws_original/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/daniel/catkin_ws/build
+CMAKE_BINARY_DIR = /home/daniel/ros/catkin_ws_original/build
 
 # Utility rule file for service_tutorials_pkg_generate_messages_eus.
 
 # Include the progress variables for this target.
 include service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_eus.dir/progress.make
 
-service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_eus: /home/daniel/catkin_ws/devel/share/roseus/ros/service_tutorials_pkg/srv/AddTwoInts.l
-service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_eus: /home/daniel/catkin_ws/devel/share/roseus/ros/service_tutorials_pkg/manifest.l
+service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_eus: devel/share/roseus/ros/service_tutorials_pkg/srv/AddTwoInts.l
+service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_eus: devel/share/roseus/ros/service_tutorials_pkg/manifest.l
 
 
-/home/daniel/catkin_ws/devel/share/roseus/ros/service_tutorials_pkg/srv/AddTwoInts.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-/home/daniel/catkin_ws/devel/share/roseus/ros/service_tutorials_pkg/srv/AddTwoInts.l: /home/daniel/catkin_ws/src/service_tutorials_pkg/srv/AddTwoInts.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daniel/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from service_tutorials_pkg/AddTwoInts.srv"
-	cd /home/daniel/catkin_ws/build/service_tutorials_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/daniel/catkin_ws/src/service_tutorials_pkg/srv/AddTwoInts.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p service_tutorials_pkg -o /home/daniel/catkin_ws/devel/share/roseus/ros/service_tutorials_pkg/srv
+devel/share/roseus/ros/service_tutorials_pkg/srv/AddTwoInts.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+devel/share/roseus/ros/service_tutorials_pkg/srv/AddTwoInts.l: /home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg/srv/AddTwoInts.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daniel/ros/catkin_ws_original/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from service_tutorials_pkg/AddTwoInts.srv"
+	cd /home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg/srv/AddTwoInts.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p service_tutorials_pkg -o /home/daniel/ros/catkin_ws_original/build/devel/share/roseus/ros/service_tutorials_pkg/srv
 
-/home/daniel/catkin_ws/devel/share/roseus/ros/service_tutorials_pkg/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daniel/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for service_tutorials_pkg"
-	cd /home/daniel/catkin_ws/build/service_tutorials_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/daniel/catkin_ws/devel/share/roseus/ros/service_tutorials_pkg service_tutorials_pkg std_msgs
+devel/share/roseus/ros/service_tutorials_pkg/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/daniel/ros/catkin_ws_original/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for service_tutorials_pkg"
+	cd /home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/daniel/ros/catkin_ws_original/build/devel/share/roseus/ros/service_tutorials_pkg service_tutorials_pkg std_msgs
 
 service_tutorials_pkg_generate_messages_eus: service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_eus
-service_tutorials_pkg_generate_messages_eus: /home/daniel/catkin_ws/devel/share/roseus/ros/service_tutorials_pkg/srv/AddTwoInts.l
-service_tutorials_pkg_generate_messages_eus: /home/daniel/catkin_ws/devel/share/roseus/ros/service_tutorials_pkg/manifest.l
+service_tutorials_pkg_generate_messages_eus: devel/share/roseus/ros/service_tutorials_pkg/srv/AddTwoInts.l
+service_tutorials_pkg_generate_messages_eus: devel/share/roseus/ros/service_tutorials_pkg/manifest.l
 service_tutorials_pkg_generate_messages_eus: service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_eus.dir/build.make
 
 .PHONY : service_tutorials_pkg_generate_messages_eus
@@ -79,10 +79,10 @@ service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_eus.dir
 .PHONY : service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_eus.dir/build
 
 service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_eus.dir/clean:
-	cd /home/daniel/catkin_ws/build/service_tutorials_pkg && $(CMAKE_COMMAND) -P CMakeFiles/service_tutorials_pkg_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg && $(CMAKE_COMMAND) -P CMakeFiles/service_tutorials_pkg_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_eus.dir/clean
 
 service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_eus.dir/depend:
-	cd /home/daniel/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/catkin_ws/src /home/daniel/catkin_ws/src/service_tutorials_pkg /home/daniel/catkin_ws/build /home/daniel/catkin_ws/build/service_tutorials_pkg /home/daniel/catkin_ws/build/service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/daniel/ros/catkin_ws_original/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel/ros/catkin_ws_original/src /home/daniel/ros/catkin_ws_original/src/service_tutorials_pkg /home/daniel/ros/catkin_ws_original/build /home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg /home/daniel/ros/catkin_ws_original/build/service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : service_tutorials_pkg/CMakeFiles/service_tutorials_pkg_generate_messages_eus.dir/depend
 
